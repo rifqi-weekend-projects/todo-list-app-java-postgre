@@ -58,6 +58,7 @@ Maven: The build automation tool used for dependency management.
 JDBC: Java Database Connectivity for interacting with the PostgreSQL database.
 
 ## Project Structure
+```
 todo-list-app-java/
 ├── src/
 │   ├── main/
@@ -75,7 +76,7 @@ todo-list-app-java/
 ├── pom.xml
 ├── README.md
 └── .gitignore
-
+```
 ## License
 This project is a personal weekend project and is not under any specific license. Feel free to use and modify the code for learning purposes.
 
