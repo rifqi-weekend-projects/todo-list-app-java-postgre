@@ -27,19 +27,22 @@ A simple To-Do List application built with Java, using PostgreSQL for database m
 ### Setup
 
 1. **Clone the repository**:
-   ```bash```
-   ```git clone https://github.com/rifqi-weekend-projects/todo-list-app-java-postgre```
-   ```cd todo-list-app-java-postgre```
+   ```bash
+   git clone https://github.com/rifqi-weekend-projects/todo-list-app-java-postgre
+   cd todo-list-app-java-postgre
+   ```
 
 2. **Set up the database**:
    - Create a PostgreSQL database named todo_app.
    - Update the database connection details in DatabaseConnection.java:
-     ```private static final String URL = "jdbc:postgresql://localhost:5432/todo_app";```
-     ```private static final String USER = "postgres";```
-     ```private static final String PASSWORD = "root";```
+     ```private static final String URL = "jdbc:postgresql://localhost:5432/todo_app";
+     private static final String USER = "postgres";
+     private static final String PASSWORD = "root";
+     ```
 3. **Compile and run the project**:
-     ```mvn clean install```
-     ```mvn exec:java -Dexec.mainClass="com.enigma.gosling.ToDoListApp"```
+     ```mvn clean install
+     mvn exec:java -Dexec.mainClass="com.enigma.gosling.ToDoListApp"
+     ```
 4. **Follow the menu prompts to interact with the application.**
 
 ## Technologies Used
